@@ -1,0 +1,7 @@
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.active.tab-border-top:not(:focus)>.tab-border-top-container, .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.selected.tab-border-top:not(:focus)>.tab-border-top-container {
+    background-color: var(--tab-border-top-color);
+    height: 3px;
+    top: 0;
+    z-index: 6;
+    background-image: linear-gradient(to right, #11998f, #d13abd, #efbd8a, #11998f);
+}
